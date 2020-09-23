@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class Ex5 {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+       /* Scanner s = new Scanner(System.in);
 
         System.out.println("please enter a number");
 
@@ -19,6 +19,22 @@ public class Ex5 {
         for (int i = 0; i < str.length; i++) {
             System.out.print(str[i] + " ");
 
+        }*/
+
+        Scanner s = new Scanner(System.in);
+
+        System.out.println("please enter a number");
+        if (s.hasNextInt()) {
+            int x = s.nextInt();
+            int arrayLength = String.valueOf(x).length();
+            int[] array = new int[arrayLength];
+            for (int i = arrayLength - 1; x > 0; x /= 10, --i) {
+                array[i] = x % 10;
+            }
+            System.out.println("Converted Array: " + Arrays.toString(array));
+        } else {
+            System.out.println("Please Enter An Integer");
         }
+
     }
 }
