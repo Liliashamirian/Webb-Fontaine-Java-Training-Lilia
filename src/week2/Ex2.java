@@ -1,6 +1,4 @@
-package Week2;
-
-import java.util.jar.JarOutputStream;
+package week2;
 
 /**
  * Created by Lilia Shamirian on  15, Sep, 2020
