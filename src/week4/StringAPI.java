@@ -1,8 +1,6 @@
 package week4;
 
-import static week4.Constants.INVALID;
-import static week4.Constants.OUT_OF_BOUND;
-import static week4.Constants.VALID;
+import static week4.Constants.*;
 
 /**
  * Created by Lilia Shamirian on  28, Nov, 2020
@@ -45,9 +43,9 @@ public class StringAPI {
             return OUT_OF_BOUND;
         }
         if (st.reverse().toString().equals(input)) {
-            return "Palindrome";
+            return PALINDROME;
         } else {
-            return "Not Palindrome";
+            return NOT_PALINDROME;
         }
     }
 
@@ -58,6 +56,9 @@ public class StringAPI {
         }
         int length = input.length();
         if (length % 2 != 0) {
+            return INVALID;
+        }
+        if (input.startsWith(")") || input.endsWith("(")) {
             return INVALID;
         }
         if (input.matches("[()]+")) {

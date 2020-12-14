@@ -18,7 +18,6 @@ public class Ex5 {
     }
 
     private static double increaseGivenElementByTenPercent(int index, int[] array) {
-        double result = array[index] * 0.10;
-        return result;
+        return array[index] * 0.10;
     }
 }

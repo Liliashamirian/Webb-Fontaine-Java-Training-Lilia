@@ -7,4 +7,6 @@ public class Constants {
     static final String OUT_OF_BOUND = "Out of Bound";
     static final String INVALID = "Invalid";
     static final String VALID = "Valid";
+    static final String PALINDROME = "Palindrome";
+    static final String NOT_PALINDROME = "Not Palindrome";
 }

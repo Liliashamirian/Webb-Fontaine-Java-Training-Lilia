@@ -114,6 +114,7 @@ public class StringTest {
     }
 
     //Ex6
+    @Test
     public void isInputStartWithAnother() {
         boolean result;
         result = api.isInputStartWithAnother("", "Hello");
@@ -136,6 +137,7 @@ public class StringTest {
     }
 
     //Ex7
+    @Test
     public void isInputEndWithAnother() {
         boolean result;
         result = api.isInputStartWithAnother("", "Hello");
@@ -158,6 +160,7 @@ public class StringTest {
     }
 
     //Ex8
+    @Test
     public void removeDuplicateChars() {
         String result;
         result = api.removeDuplicateChars("");
@@ -174,6 +177,7 @@ public class StringTest {
     }
 
     //Ex9
+    @Test
     public void divideString() {
         String[] result;
         result = api.divideString("", 2);
