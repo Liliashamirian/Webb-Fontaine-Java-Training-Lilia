@@ -1,4 +1,4 @@
-package Week2;
+package week2;
 
 /**
  * Created by Lilia Shamirian on  22, Sep, 2020

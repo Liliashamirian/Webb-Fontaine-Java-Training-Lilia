@@ -1,6 +1,4 @@
-package Week2;
-
-import java.util.Scanner;
+package week2;
 
 /**
  * Created by Lilia Shamirian on  14, Sep, 2020
