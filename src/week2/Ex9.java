@@ -9,9 +9,13 @@ import java.util.Scanner;
 public class Ex9 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int[] array = {10, 20, 30, 40, 50, 60, 70, 80};
+        int[] array = new int[10];
         int[] array2 = new int[array.length - 1];
-
+        for (int i = 0; i < array.length; i++) {
+            array[i] = (int) (Math.random() * 10);
+            System.out.print(array[i] + ", ");
+        }
+        System.out.println();
         System.out.println("Please input index : ");
         int index = scanner.nextInt();
 
